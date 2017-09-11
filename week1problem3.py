@@ -1,3 +1,10 @@
+#Assume s is a string of lower case characters.
+
+#Write a program that prints the longest substring of s in which the letters occur in alphabetical order.
+#For example, if s = 'azcbobobegghakl', then your program should print: beggh
+
+#In the case of ties, print the first substring. For example, if s = 'abcbcd', then your program should print: abc
+
 s = 'azcbobobegghakl'
 #answer is beggh
 s= s + ' ' #add a space to the end of the string to prevent while loop index error
